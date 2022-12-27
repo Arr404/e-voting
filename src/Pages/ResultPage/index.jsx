@@ -1,9 +1,13 @@
+import "./style.css"
 import Nav from "../Component/Nav"
-const Dashboard = () => {
+
+const Result = () => {
     return (
         <>
             <Nav/>
         </>
+        
     )
 }
-export default Dashboard;
+
+export default Result;
