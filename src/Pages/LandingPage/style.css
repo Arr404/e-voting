@@ -1,0 +1,28 @@
+.buttonLogin{
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    color: white;
+}
+.loginText{
+    color: white;
+    font-size: 1vw;
+}
+.buttonLogin:hover{
+
+    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+    background-color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+.buttonLogin:hover .loginText{
+    color: red;
+}
+.buttonLogin{
+    cursor: pointer;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
